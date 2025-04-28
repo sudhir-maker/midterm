@@ -1,0 +1,226 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0046B1;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  header h4 {
+    font-weight: 400;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #F71B58;
+  }
+  
+  /* Hero Section */
+  #hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #eef4ff;
+  }
+  
+  .profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid #0046B1;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #hero button {
+    padding: 12px 30px;
+    background-color: #F71B58;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #hero button:hover {
+    background-color: #c11645;
+  }
+  
+  /* About Section */
+  #about {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .profile-img2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-bottom: 20px;
+    border: #c11645 solid;
+    border-color: #0046B1;
+  }
+  
+  #about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  
+  /* Section Headings */
+  section h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #0046B1;
+    margin-bottom: 20px;
+  }
+  
+  /* Qualification Section */
+  #qualification ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  #qualification li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  /* Skills Section */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  
+  .skill-card {
+    background: #ffffff;
+    border: 2px solid #0046B1;
+    border-radius: 12px;
+    padding: 25px 20px;
+    box-shadow: 0 8px 20px rgba(0, 70, 177, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 70, 177, 0.2);
+  }
+  
+  .skill-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0046B1;
+    margin-bottom: 15px;
+    border-bottom: 2px dashed #F71B58;
+    padding-bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .skill-level {
+    font-size: 18px;
+    color: #F71B58;
+    background: #f4f4f4;
+    padding: 8px 12px;
+    border-radius: 8px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  /* Projects Section */
+  #projects ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+  
+  #projects li {
+    margin: 12px 0;
+    font-size: 18px;
+  }
+  
+  #projects button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #0046B1;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #projects button:hover {
+    background-color: #022d7b;
+  }
+  
+  /* Contact Section */
+  #contact p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  #contact a {
+    color: #F71B58;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #0046B1;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
